@@ -5,6 +5,7 @@ PredictiX is an intelligent, user-friendly web application that leverages the po
 
 The application features a stunning, modern user interface with a "Cyberpunk Neon" theme, glassmorphism effects, and interactive visualizations, all built with Streamlit.
 
+
 📖 About The Project
 
 The early detection of chronic diseases can be life-saving. PredictiX was created to make preliminary health assessment more accessible to everyone. By consolidating multiple machine learning models into a single, intuitive platform, this project aims to:
@@ -12,6 +13,7 @@ The early detection of chronic diseases can be life-saving. PredictiX was create
 Promote Health Awareness: Provide users with a simple tool to understand potential health risks based on their data. Leverage AI for Good: Showcase a practical application of machine learning in the healthcare domain. Encourage Proactive Care: Motivate users who receive a high-risk prediction to consult with healthcare professionals for a formal diagnosis.
 
 The application features a clean, modern interface built with Streamlit, ensuring a seamless user experience across different devices.
+
 
 ✨ Key Features
 
@@ -25,6 +27,7 @@ Interactive Data Visualization: A dedicated dashboard to explore the underlying 
 
 Responsive Design: The application is fully functional on both desktop and mobile browsers.
 
+
 🚀 Features
 
 📊 Predict diseases using ML models
@@ -35,46 +38,61 @@ Responsive Design: The application is fully functional on both desktop and mobil
 
 💾 Supports local deployment
 
+
 🧰 Tech Stack
 
 This project is built with a modern Python technology stack:
 
-Python: The core programming language.
+● Python: The core programming language.
 
-Streamlit: The open-source framework for building and deploying the web application.
+● Streamlit: The open-source framework for building and deploying the web application.
 
-Pandas: For data manipulation and analysis.
+● Pandas: For data manipulation and analysis.
 
-Scikit-learn: For building and evaluating machine learning models.
+● Scikit-learn: For building and evaluating machine learning models.
 
-XGBoost: For implementing the high-performance gradient boosting models.
+● XGBoost: For implementing the high-performance gradient boosting models.
 
-Seaborn & Matplotlib: For creating beautiful, static data visualizations.
+● Seaborn & Matplotlib: For creating beautiful, static data visualizations.
 
-Pickle: For serializing and saving the trained models.
+● Pickle: For serializing and saving the trained models.  
+
 
 📂 Project Structure
 
 PredictiX/
+
 │
 ├── diabetes_model.pkl
+
 ├── heart_model.pkl
+
 ├── parkinsons_model.pkl
+
 ├── breast_cancer_model.pkl
+
 ├── app.py
+
 ├── data/
+
 │   ├── diabetes.csv
+
 │   ├── heart.csv
+
 │   ├── parkinsons.csv
+
 │   └── breast_cancer.csv
+
 └── requirements.txt
+
 
 🛠️ How to Run the Project Locally
 
 ✅ Prerequisites
 
-Python 3.7+
-Git You can download it from git-scm.com.
+● Python 3.7+
+● Git You can download it from git-scm.com.
+
 
 🔄 Steps
 
@@ -111,18 +129,20 @@ http://localhost:8501
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3ae9a9f3-4d36-4050-a968-a1207d813bff" />
 
+
 📌 Datasets Used
 
-Diabetes: PIMA Indians Diabetes Dataset
+● Diabetes: PIMA Indians Diabetes Dataset
 
-Heart: UCI Heart Disease Dataset
+● Heart: UCI Heart Disease Dataset
 
-Parkinson’s: UCI Parkinson's Dataset
+● Parkinson’s: UCI Parkinson's Dataset
 
-Breast Cancer: Wisconsin Diagnostic Breast Cancer (WDBC) Dataset
+● Breast Cancer: Wisconsin Diagnostic Breast Cancer (WDBC) Dataset 
+
 
 🧠 ML Models
 
 Each disease prediction is powered by a pre-trained machine learning model saved as .pkl files using joblib:
 
-Logistic Regression / Random Forest / SVM (per disease)
+● Logistic Regression / Random Forest / SVM (per disease)
