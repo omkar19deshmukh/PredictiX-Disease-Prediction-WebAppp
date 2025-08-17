@@ -6,6 +6,7 @@ PredictiX is an intelligent, user-friendly web application that leverages the po
 The application features a stunning, modern user interface with a "Cyberpunk Neon" theme, glassmorphism effects, and interactive visualizations, all built with Streamlit.
 
 📖 About The Project
+
 The early detection of chronic diseases can be life-saving. PredictiX was created to make preliminary health assessment more accessible to everyone. By consolidating multiple machine learning models into a single, intuitive platform, this project aims to:
 
 Promote Health Awareness: Provide users with a simple tool to understand potential health risks based on their data. Leverage AI for Good: Showcase a practical application of machine learning in the healthcare domain. Encourage Proactive Care: Motivate users who receive a high-risk prediction to consult with healthcare professionals for a formal diagnosis.
@@ -13,6 +14,7 @@ Promote Health Awareness: Provide users with a simple tool to understand potenti
 The application features a clean, modern interface built with Streamlit, ensuring a seamless user experience across different devices.
 
 ✨ Key Features
+
 Four Prediction Modules: Separate, dedicated pages for Diabetes, Heart Disease, Parkinson's, and Breast Cancer prediction.
 
 Multi-Model Approach: Each disease prediction is supported by multiple machine learning models (e.g., Logistic Regression, SVM, Random Forest, XGBoost) to provide a more robust assessment.
@@ -24,11 +26,14 @@ Interactive Data Visualization: A dedicated dashboard to explore the underlying 
 Responsive Design: The application is fully functional on both desktop and mobile browsers.
 
 🚀 Features
+
 📊 Predict diseases using ML models
 🔎 Interactive UI with dark theme and navigation menu
 📈 Visualize feature distributions and correlations
 💾 Supports local deployment
+
 🧰 Tech Stack
+
 This project is built with a modern Python technology stack:
 
 Python: The core programming language.
@@ -46,6 +51,7 @@ Seaborn & Matplotlib: For creating beautiful, static data visualizations.
 Pickle: For serializing and saving the trained models.
 
 📂 Project Structure
+
 PredictiX/
 │
 ├── diabetes_model.pkl
@@ -59,10 +65,13 @@ PredictiX/
 │   ├── parkinsons.csv
 │   └── breast_cancer.csv
 └── requirements.txt
+
 🛠️ How to Run the Project Locally
+
 ✅ Prerequisites
 Python 3.7+
 Git You can download it from git-scm.com.
+
 🔄 Steps
 Clone the Repository
 
@@ -81,6 +90,8 @@ streamlit run main_app.py
 Visit in your browser
 
 http://localhost:8501
+
+
 📷 Screenshots
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/af655fbb-4243-473a-9bd8-71b595e7ce17" />
 
@@ -95,11 +106,13 @@ http://localhost:8501
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3ae9a9f3-4d36-4050-a968-a1207d813bff" />
 
 📌 Datasets Used
+
 Diabetes: PIMA Indians Diabetes Dataset
 Heart: UCI Heart Disease Dataset
 Parkinson’s: UCI Parkinson's Dataset
 Breast Cancer: Wisconsin Diagnostic Breast Cancer (WDBC) Dataset
 🧠 ML Models
+
 Each disease prediction is powered by a pre-trained machine learning model saved as .pkl files using joblib:
 
 Logistic Regression / Random Forest / SVM (per disease)
