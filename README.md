@@ -1,9 +1,5 @@
 # 🩺 PredictiX - Multi-Disease Prediction System
 
-**Author**: Akash Mandal  
-**GitHub**: [Akashmandal08](https://github.com/Akashmandal08)  
-**Email**: akashmandal.9490@gmail.com  
-**Repository**: [PredictiX-Disease-Prediction-WebApp](https://github.com/Akashmandal08/PredictiX-Disease-Prediction-WebApp.git)
 
 ---
 
