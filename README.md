@@ -28,8 +28,11 @@ Responsive Design: The application is fully functional on both desktop and mobil
 🚀 Features
 
 📊 Predict diseases using ML models
+
 🔎 Interactive UI with dark theme and navigation menu
+
 📈 Visualize feature distributions and correlations
+
 💾 Supports local deployment
 
 🧰 Tech Stack
@@ -69,10 +72,12 @@ PredictiX/
 🛠️ How to Run the Project Locally
 
 ✅ Prerequisites
+
 Python 3.7+
 Git You can download it from git-scm.com.
 
 🔄 Steps
+
 Clone the Repository
 
 git clone https://github.com/your-username/PredictiX-Disease-Prediction-WebApp.git
@@ -93,6 +98,7 @@ http://localhost:8501
 
 
 📷 Screenshots
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/af655fbb-4243-473a-9bd8-71b595e7ce17" />
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3ed41fdb-6674-4343-b2e9-73db97191f69" />
@@ -108,9 +114,13 @@ http://localhost:8501
 📌 Datasets Used
 
 Diabetes: PIMA Indians Diabetes Dataset
+
 Heart: UCI Heart Disease Dataset
+
 Parkinson’s: UCI Parkinson's Dataset
+
 Breast Cancer: Wisconsin Diagnostic Breast Cancer (WDBC) Dataset
+
 🧠 ML Models
 
 Each disease prediction is powered by a pre-trained machine learning model saved as .pkl files using joblib:
