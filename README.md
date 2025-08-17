@@ -91,28 +91,33 @@ PredictiX/
 ✅ Prerequisites
 
 ● Python 3.7+
+
 ● Git You can download it from git-scm.com.
 
 
 🔄 Steps
 
-Clone the Repository
+1. Clone the Repository
 
-git clone https://github.com/your-username/PredictiX-Disease-Prediction-WebApp.git
-cd PredictiX-Disease-Prediction-WebApp
-Create a Virtual Environment
+   git clone https://github.com/your-username/PredictiX-Disease-Prediction-WebApp.git
+   cd PredictiX-Disease-Prediction-WebApp
+ 
+2. Create a Virtual Environment
 
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-Install Dependencies
+   python -m venv venv
+   source venv/bin/activate    # On Windows: venv\Scripts\activate
+  
+3. Install Dependencies
 
-pip install -r requirements.txt
-Run the Streamlit App
+   pip install -r requirements.txt
+   
+4. Run the Streamlit App
 
-streamlit run main_app.py
-Visit in your browser
+   streamlit run main_app.py
+   
+5. Visit in your browser
 
-http://localhost:8501
+   http://localhost:8501
 
 
 📷 Screenshots
